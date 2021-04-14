@@ -221,6 +221,20 @@
             <id>sonatype-oss</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
         </repository>
+        <repository>
+            <id>sonatype-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>kyori</id>
+            <url>https://repo.phoenix616.dev/net/kyori/</url>
+        </repository>
         <!-- ... -->
     </repositories>
 <!--    <dependencyManagement>-->
